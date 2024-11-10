@@ -1,5 +1,5 @@
 def distinct_pair_sum(arr, k):
-    pairs = set()
+    pairs = set() # Use a set to store unique pairs, ensuring each pair is distinct and automatically ignoring duplicates
     
     for i in range(len(arr) - 1):
         # Form a pair of consecutive elements
